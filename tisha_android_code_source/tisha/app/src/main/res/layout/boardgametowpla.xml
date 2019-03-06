@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/tishabak">
+
+
+    <LinearLayout
+        android:id="@+id/layoutfoggridview"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/mainpub2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <com.eljeder.tisha.GestureDetectGridViewtow xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/gridtow"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="71dp"
+            android:background="@drawable/boardtictac1"
+            android:verticalSpacing="10dp"
+            android:visibility="visible"
+            tools:context="com.eljeder.tisha.MainActivity" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/boardgameexit"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/exit"
+                app:srcCompat="@drawable/trp" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/probtt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/progg"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/trp" />
+
+</LinearLayout>

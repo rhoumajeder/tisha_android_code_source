@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TiSha</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-1350123755884874/5321761405</string>
+
+
+</resources>

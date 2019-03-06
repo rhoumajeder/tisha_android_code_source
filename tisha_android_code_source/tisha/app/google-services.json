@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "515139975007",
+    "firebase_url": "https://tisha-bb3d8.firebaseio.com",
+    "project_id": "tisha-bb3d8",
+    "storage_bucket": "tisha-bb3d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:515139975007:android:3e7b0fd208d6a05a",
+        "android_client_info": {
+          "package_name": "com.eljeder.tisha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "515139975007-0f0om2dtm35nb7ejhvp2s1etieiks1id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC_Ra69rITXrFHdvFwisa_2h_on9RiMiM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

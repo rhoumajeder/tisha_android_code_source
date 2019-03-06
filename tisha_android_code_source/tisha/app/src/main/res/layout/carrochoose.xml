@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tishabak"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/lchoose"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="257dp"
+                android:background="@drawable/boardtictac1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="90dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/carrochos1"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginStart="32dp"
+                            android:background="@drawable/trp"
+                            android:onClick="carrochose1"
+                            app:srcCompat="@drawable/trp" />
+
+                        <ImageButton
+                            android:id="@+id/carrochos2"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="16dp"
+                            android:background="@drawable/trp"
+                            android:onClick="carrochose2"
+                            app:srcCompat="@drawable/trp" />
+
+                        <ImageButton
+                            android:id="@+id/carrochos3"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/carrochos2"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginEnd="35dp"
+                            android:layout_marginRight="35dp"
+                            android:background="@drawable/trp"
+                            android:onClick="carrochose3"
+                            app:srcCompat="@drawable/trp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/carrochos4"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/trp"
+                            android:onClick="carrochose4"
+                            app:srcCompat="@drawable/trp" />
+
+                        <ImageButton
+                            android:id="@+id/carrochos5"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/carrochos4"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/trp"
+                            android:onClick="carrochose5"
+                            app:srcCompat="@drawable/trp" />
+
+                        <ImageButton
+                            android:id="@+id/carrochos6"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="14dp"
+                            android:layout_marginEnd="28dp"
+                            android:layout_marginRight="28dp"
+                            android:background="@drawable/trp"
+                            android:onClick="carrochose6"
+                            app:srcCompat="@drawable/trp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="89dp"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageButton
+                            android:id="@+id/carrochos7"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignTop="@+id/carrochos9"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginStart="18dp"
+                            android:background="@drawable/trp"
+                            android:onClick="carrochose7"
+                            app:srcCompat="@drawable/trp" />
+
+                        <ImageButton
+                            android:id="@+id/carrochos8"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/carrochos9"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/trp"
+                            android:onClick="carrochose8"
+                            app:srcCompat="@drawable/trp" />
+
+                        <ImageButton
+                            android:id="@+id/carrochos9"
+                            android:layout_width="80dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginEnd="31dp"
+                            android:layout_marginRight="31dp"
+                            android:layout_marginTop="12dp"
+                            android:background="@drawable/trp"
+                            android:onClick="carrochse9"
+                            app:srcCompat="@drawable/trp" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/playbtnchosecarro"
+                    android:layout_width="130dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/play"
+                    android:onClick="carochoosebtcpu"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/trp" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6new"
+                    android:layout_width="130dp"
+                    android:layout_height="70dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:background="@drawable/rocknew"
+                    android:onClick="btnew"
+                    app:srcCompat="@drawable/trp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
